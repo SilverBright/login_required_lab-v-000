@@ -8,5 +8,8 @@ class SessionsController < ActionController::Base
       redirect_to '/'
     end
   end
+  
+  def destroy
+  end
 
 end
